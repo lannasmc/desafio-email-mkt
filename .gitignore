@@ -1,0 +1,32 @@
+# General
+# =======
+*.bak
+*.dat
+*.gz
+*.log
+*.out
+*.pid
+*.swp
+*.tmp
+*.txt
+
+# OS
+# ==
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# Sublime Text project files
+# ==========================
+.sublime-project
+*.sublime-project
+*.sublime-workspace
+
+# IntelliJ
+# ========
+.idea/*
+*.iml
+
+# Visual Studio Code
+# ==================
+.vscode/

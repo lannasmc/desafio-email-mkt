@@ -1,0 +1,182 @@
+/* RESET */
+
+body,
+ul, li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.email-marketing {
+  font-family: Arial;
+  width: 700px;
+  margin: 0 auto;
+  padding-bottom: 34px;
+  background-color: #ececec;
+}
+
+/* CABECALHO */
+
+.cabecalho {
+  margin: 0 10px 0;
+}
+
+/* UNSUBSCRIBE */
+
+.unsubscribe {
+  width: 680px;
+  height: 56px;
+  border-bottom: 5px solid #1e6a66;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.unsubscribe p {
+  font-family: Arial;
+  font-size: 10px;
+  color: #b4b4b4;
+  padding: 18px 100px 0;
+}
+
+.unsubscribe p a {
+  color: #909090;
+}
+
+/* LOGO */
+
+.logo-container {
+  width: 680px;
+  height: 52px;
+  background-color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.logo-container .logo {
+  float: left;
+  margin: 7px 0 0 21px;
+}
+
+.logo-container ul {
+  float: right;
+  padding: 13px 28px 0 0;
+}
+
+.logo-container li {
+  float: left;
+  margin-left: 15px;
+}
+
+/* BANNER */
+
+.banner-container {
+  position: relative;
+  width: 680px;
+  height: 259px;
+}
+
+.banner-container .banner {
+  display: block;
+  width: 680px;
+  height: 259px;
+  background: url(imagens/banner.jpg) no-repeat;
+}
+
+.banner-container .botao-leiame {
+  display: block;
+  width: 119px;
+  height: 33px;
+  padding: 197px 0 0 21px;
+}
+
+/* CONTEUDO */
+
+.conteudo {
+  padding: 10px 44px 0 31px;
+}
+
+.produto-container {
+  width: 605px;
+  height: 244px;
+  margin-top: 25px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.produto-container:last-child {
+  border-bottom: 0;
+}
+
+.produto-container .imagem-container {
+  float: left;
+  width: 249px;
+  height: 214px;
+  background-color: #ffffff;
+}
+
+.produto-container.produto-direita .imagem-container {
+  float: left;
+}
+
+.produto-container.produto-esquerda .imagem-container {
+  float: right;
+}
+
+.produto-container .imagem-container img {
+  width: 208px;
+  height: 180px;
+  margin: 17px 21px;
+}
+
+.produto-container .produto-texto {
+  width: 328px;
+  font-family: 'Calibri', Arial;
+}
+
+.produto-container.produto-esquerda .produto-texto {
+  float: left;
+}
+
+.produto-container.produto-direita .produto-texto {
+  float: right;
+}
+
+.produto-container .produto-texto .titulo {
+  padding-bottom: 15px;
+  font-size: 22px;
+  color: #145f67;
+  text-transform: uppercase;
+}
+
+.produto-container .produto-texto .descricao {
+  font-size: 12px;
+  color: #909090;
+  line-height: 18px;
+}
+
+.produto-container .produto-texto .botao-leiame {
+  display: block;
+  width: 106px;
+  height: 28px;
+  background-color: #2bbaa9;
+  margin-top: 26px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* RODAPE */
+
+.rodape {
+  width: 700px;
+  height: 42px;
+  background-color: #1e6a66;
+  margin-top: 13px;
+  font-size: 10px;
+  color: #ececec;
+  text-align: center;
+  line-height: 42px;
+}
